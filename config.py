@@ -19,8 +19,7 @@ def is_enabled(value, default):
       
 # Bot Information
 API_ID = int(environ.get("API_ID", "13744474"))
-API_HASH = environ.get("API_HASH", "8c7226e681822e876818d2beea9bdba6
-")
+API_HASH = environ.get("API_HASH", "8c7226e681822e876818d2beea9bdba6")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
 PICS = (environ.get('PICS', 'https://w0.peakpx.com/wallpaper/466/204/HD-wallpaper-maruyama-aya-bang-dream-pink-hair-anime-moe-girl-anime.jpg')).split() # Bot Start Picture
